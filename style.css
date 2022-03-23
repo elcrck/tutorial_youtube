@@ -1,0 +1,43 @@
+body {
+  background-color: #b2b2b2;
+}
+
+.container {
+  width: 90%;
+  margin: 30px auto;
+  padding: 10px 15px;
+  border: 2px solid #000;
+  height: 400px;
+  text-align: center;
+  position: relative;
+  background-color: #fff;
+  max-width: 800px;
+}
+
+.btn {
+  width: 100px;
+  position: absolute;
+  background-color: #3d7da3;
+  border: 2px solid #000;
+  margin-top: 150px;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+.btn_yes {
+  left: 150px;
+}
+
+.btn_no {
+  right: 150px;
+}
+
+@media screen and (max-width: 567px) {
+  .btn_yes {
+    left: 20px;
+  }
+
+  .btn_no {
+    right: 20px;
+  }
+}
